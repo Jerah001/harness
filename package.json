@@ -1,0 +1,12 @@
+{
+  "name": "loop-harness",
+  "version": "0.1.0",
+  "description": "Autonomous development harness: a gated task graph driven by a loop of headless Claude Code sessions, with per-task git worktrees.",
+  "type": "module",
+  "bin": { "harness": "bin/harness.mjs" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
